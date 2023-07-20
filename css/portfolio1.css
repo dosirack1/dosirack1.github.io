@@ -226,7 +226,7 @@
     margin-top: 0px;
 }
 
-.stationary-wrap2:hover .stationary-overlay2 {
+.stationary-wrap3:hover .stationary-overlay3 {
     width: 400px;
     height: 200px;
     margin-left: 0px;
@@ -243,7 +243,7 @@
     margin-left: -20px;
 }
 
-.stationary-overlay2 {
+.stationary-overlay3 {
     width: 100%;
     height: 100%;
     border: 20px solid white;
@@ -253,12 +253,63 @@
     margin-left: -20px;
 }
 
-.stationary-wrap2 {
+.stationary-wrap3 {
     width: 440px;
     height: 240px;
     position: absolute;
     overflow: hidden;
     margin-top: 40px;
+}
+
+.stationary-wrap2 {
+    width: 440px;
+    height: 240px;
+    position: absolute;
+    overflow: hidden;
+    left: 40px;
+}
+
+.stationary-wrap2:hover .stationary-overlay2 {
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.stationary-overlay2 {
+    width: 100%;
+    height: 100%;
+    border: 20px solid white;
+    transition: all 0.5s;
+    box-sizing: content-box;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.stationary-wrap4 {
+    width: 440px;
+    height: 240px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 40px;
+    left: 40px;
+}
+
+.stationary-wrap4:hover .stationary-overlay4 {
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.stationary-overlay4 {
+    width: 100%;
+    height: 100%;
+    border: 20px solid white;
+    transition: all 0.5s;
+    box-sizing: content-box;
+    margin-top: -25px;
+    margin-left: -20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -282,7 +333,7 @@
     }
     
     .portfolio1-img img {
-        width: 220px;
+        width: 170px;
         left: 0;
         right: 0;
         margin: auto;
@@ -313,23 +364,50 @@
     
     .stationary-wrap:hover .stationary-overlay {
         width: 91.5%;
-        height: 85%;
+        height: 85.5%;
     }
     
     .stationary-wrap2 {
         width: 100%;
         height: 100%;
+        margin-left: -40px;
         margin-top: 0px;
     }
     
     .stationary-wrap2:hover .stationary-overlay2 {
         width: 91.5%;
-        height: 85%;
+        height: 85.5%;
     }
     
-    .stationary-overlay2 {
+    .stationary-wrap3 {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+    
+    .stationary-wrap3:hover .stationary-overlay3 {
+        width: 91.5%;
+        height: 85.5%;
+    }
+    
+    .stationary-overlay3 {
+        margin-top: -20px;
+    }
+    
+    .stationary-wrap4 {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: -40px;
+    }
+    
+    .stationary-wrap4:hover .stationary-overlay4 {
+        width: 91.5%;
+        height: 85.5%;
+    }
+    
+    .stationary-overlay4 {
         margin-top: -20px;
     }
 }
-
 
