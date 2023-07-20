@@ -1,0 +1,138 @@
+
+.card-container {
+    background: #F7F9Fc;
+    margin: auto;
+}
+
+.background-option {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    background-color: white;
+    margin: auto;
+}
+
+.card-img {
+    width:125px;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.fc-b {
+    color: #6fbaf8;
+}
+
+.bc-b {
+    background: #6fbaf8;
+}
+
+.fs-8 {
+    font-size: 13px;
+}
+
+.clear {
+    clear: both;
+}
+
+.card-bt {
+    display: block;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 29px;
+    border-radius: 2px;
+}
+
+.card-bt:active {
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.fs-9 {
+    font-size: 12px;
+}
+
+.fs-10 {
+    font-size: 11px;
+}
+
+f-15 {
+    font-size: 15px;
+}
+.profile-border {
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+}
+
+.profile-border-blue {
+    border-bottom: 2px solid #6fbaf8;
+    width: 70px;
+    float: left;
+}
+
+.about-border {
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.card-border {
+    border-right: 2px solid;
+    opacity: 0.1;
+}
+
+.about-batge {
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 25px;
+    font-size: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.com-width {
+    width: 1200px;
+}
+
+.about-width {
+    width: 765px;
+}
+
+.profile-margin {
+    margin: 0;
+    margin-bottom: 170px;
+}
+
+
+.overflow {
+    overflow: hidden;
+}
+
+.people-img {
+    width: 50px;
+}
+
+.border-tops {
+    border-top: 2px solid rgba(0,0,0,0.1);
+}
+
+.people-margin {
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+@media screen and (max-width: 992px) {
+    .com-width {
+       width: 409px;
+    }
+    
+    .profile-margin {
+    margin-bottom: 0px;
+    }
+    
+    .overflow {
+        height: 0;
+    }
+}

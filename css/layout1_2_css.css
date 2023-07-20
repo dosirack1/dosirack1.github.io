@@ -1,0 +1,68 @@
+
+.mainbox {
+    width: 1580px;
+    height: 370px;
+    margin: auto;
+    margin-top: 80px;
+    
+}
+.apple {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 28px;
+    float: left;
+}
+
+.time {
+    font-size: 23px;
+    color: lightslategray;
+}
+
+.title {
+    width: 70%;
+    float: left;
+    margin-top: -15px;
+}
+
+.maintext {
+    float: left;
+    font-size: 25px;
+    width: 1175px;
+    height: 50;
+    color: gray;
+    margin-top: -25px;
+}
+
+.vim {
+    width: 330px;
+    height: 330px;
+    margin-top: 20px;
+    float: right;
+}
+
+.gong {
+    width: 30px;
+    float: right;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.navbar a{
+    font-size: 26px;
+    text-decoration: none;
+}
+
+
